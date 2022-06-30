@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Volleyball</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="static/stylesheet.css">
+    </head>
+
+
+
+
+
+<body class="Background">
+
+    <!--Navbar-->
+    <div class="Navbar">
+        <a class="active" href="#Home">Home</a>
+        <a href="#History">History</a>
+        <a href="#Styles">Styles</a>
+        <a href="#Slideshow">Slideshow</a>
+        <a onclick="openForm()" ondblclick="closeForm()" class="contact">Contact</a>
+        <a onclick="darkFunction()" class="dark-mode">Dark Mode</a>
+    </div>    
+    
+    <!--Background video-->
+    <div id="Home">
+        <video autoplay="" muted="" loop="" id="Sunny_Video">
+            <source src="./static/images/Clouds.mp4" type="video/mp4">
+            <!--Display message if video fails to run-->
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+        <br>
+        <br>
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Volleyball</h1>
+            <strong>
+                <p class="center">
+                    <q> The (volleyball) player is not a soloist, but a member of an orchestra. When that player begins to think, I'm special, (The player) is finished.
+                    </q>
+                    <br>  ― Bernardo Rezende
+                </p>
+            </strong>
+        </div>
+
+         <!-- Carousel section added -->
+         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="static/images/court_volleyball.jpg" class="d-block w-100" alt="setting">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Setting!</h5>
+                  <p>Setting is the second step of passing, and it can be done to either dump the ball over into an undefended spot or to “set” the ball into a position that allows the hitter to spike it over.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="static/images/blocking_volleyball.jpg" class="d-block w-100" alt="blocking">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Blocking!</h5>
+                  <p>In volleyball, blocking is when you deflect the ball delivered from the opposing team's attacking hit. The main responsibility of a blocker is to block the ball back into the opposing team's court.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="static/images/volleyball_court.jpg" class="d-block w-100" alt="serving">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Serving!</h5>
+                  <p>The volleyball serve skill is used by a player to launch the ball over the net to start a rally. The serve puts the ball in play once the referee blows the first whistle.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        
+        <!--History section-->
+        <div class="Row" id="History">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="./static/images/William_G._Morgan.jpg" alt="William">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>History</h1>
+                <p>
+                    In December 1895, in Holyoke, Massachusetts (United States), William G. Morgan, a YMCA physical education director, created a new game called Mintonette, a name derived from the game of badminton, as a pastime to be played (preferably) indoors and by any number of players. 
+                    <br>
+                    <br>The game took some of its characteristics from other sports such as baseball, tennis and handball. Another indoor sport, basketball, was catching on in the area, having been invented just ten miles (sixteen kilometres) away in the city of Springfield, Massachusetts, only four years before. 
+                    <br>
+                    <br>Mintonette was designed to be an indoor sport, less rough than basketball, for older members of the YMCA, while still requiring a bit of athletic effort. The first rules, written down by William G. Morgan, called for a net 6 ft 6 in (1.98 m) high, a 25 ft * 50 ft (7.6 m * 15.2 m) court, and any number of players.
+                    <br>
+                    <br>A match was composed of nine innings with three serves for each team in each inning, and no limit to the number of ball contacts for each team before sending the ball to the opponents' court. In case of a serving error, a second try was allowed.
+                    <br>
+                    <br>Hitting the ball into the net was considered a foul (with loss of the point or a side-out)—except in the case of the first-try serve. After an observer, Alfred Halstead, noticed the volleying nature of the game at its first exhibition match in 1896, played at the International YMCA Training School (now called Springfield College), the game quickly became known as volleyball (it was originally spelled as two words: "volley ball").
+                    <br>
+                    <br>Volleyball rules were slightly modified by the International YMCA Training School and the game spread around the country to various YMCAs. In the early 1900s Spalding, through its publishing company American Sports Publishing Company, produced books with complete instruction and rules for the sport.
+                </p>
+            </div>
+        </div>
+
+        <!--Styles section-->
+        <div class="Row" id="Styles">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>Styles</h1>
+                <p>
+                Indoor Volleyball: Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding a ball on the other team's court under organized rules. It has been a part of the official program of the Summer Olympic Games since Tokyo 1964. Beach volleyball was introduced to the programme at the Atlanta 1996. The adapted version of volleyball at the Summer Paralympic Games is sitting volleyball.
+                <br>
+                <br>Beach Volleyball: A variation of the game rivaling the original sport of volleyball in popularity, beach volleyball evolved from the recreational games of volleyball played on many beaches around the world. It became an official Olympic sport in 1996. This version, rather than being played on indoor hard courts, is played on sand courts which may either be formed naturally or built specifically for the purpose. Instead of a team of six, each team consists of only two players, but otherwise the rules are almost identical.
+                <br>
+                <br>Bossaball: Bossaball is a mix of volleyball, football (soccer), gymnastics and capoeira. The court is a combination of inflatables and trampolines, divided by a net. The headquarters of the sport is in Spain.
+                <br>
+                <br>Ecua-volley: Ecua-volley is a variant of volleyball invented and played in Ecuador. Differences include a higher net (2.8 meters tall) and the use of a soccer ball. It is very popular among people that live in the USA.
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <img src="./static/images/volleyball.jpg" alt="volleyball">
+        </div>
+
+        <!-- Contact form -->
+        <div id="Contact">
+            <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
+            <div class="form-popup" id="myForm" ondblclick="closeForm()">
+                 <form action="https://formspree.io/info@learncodinganywhere.com" method="POST" class="form-container"> <!-- Here we are using a free online service from https://formspree.io/ to send our contact form to an email address of our choosing - note: it will not run unless live on the internet, you have to push it to your online website first -->
+                     <h1>Contact</h1>
+                     <label for="first"><b>First Name</b></label>
+                       <input type="text" placeholder="Type your first name here" name="first" required>
+                     <label for="last"><b>Last Name</b></label>
+                       <input type="text" placeholder="Type your last name here" name="last">
+                     <label for="email"><b>Email</b></label>		
+                       <input type="text" placeholder="Type your email address here" name="email" required>
+                     <label for="contact-number"><b>Contact Number</b></label>
+                       <input type="text" placeholder="Type your phone number here" name="contact-number">
+                       <br><br> 
+                    <label for="terms_and_policy">I accept the Terms of Use & Privacy Policy</label>
+                        <input type="checkbox" name="terms_and_policy">
+                    <br>
+                    <label for="recieve_email">I agree to recieve emails</label>
+                        <input type="checkbox" name="recieve_email">
+                    <br>
+                     <button type="submit" class="btn">SUBMIT</button>
+                     <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+                 </form>
+            </div>
+         </div>
+        
+         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <footer>
+            <p>
+                </p><p class="center">Copyright ©<script>document.write(new Date().getFullYear())</script> Nicholas Siegmeier</a></p>
+                <br>
+            <p></p>
+        </footer>
+    <script src="static/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
